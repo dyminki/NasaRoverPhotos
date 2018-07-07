@@ -10,7 +10,7 @@ Geting photos from NASA API rover curiousity from 2100 sol.
 ### **Using**
 - NASA API
 
-[Live DEMO](https://dyminki.github.io/ToDoList/)
+[Live DEMO](https://dyminki.github.io/NasaRoverPhotos/)
 
 ### Screenshoot
 
