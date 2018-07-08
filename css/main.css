@@ -20,6 +20,39 @@ body {
     background-repeat: no-repeat;
     text-align: center;
 }
+.input-container {
+    margin: 10px auto;
+    text-align: center;
+}
+label {
+    font-size: 35px;
+}
+#input-txt {
+    width: 30%;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    height: 3rem;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#input-submit {
+    border: none;
+    background-color: #5d4938;
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+}
+
+#input-submit:hover {
+    background-color: #685544;
+}
+
 .section-second {
     margin: 10px 0;
     display: flex;

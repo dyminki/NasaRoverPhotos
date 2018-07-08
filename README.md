@@ -14,4 +14,4 @@ Geting photos from NASA API rover curiousity from 2100 sol.
 
 ### Screenshoot
 
-![Image](https://github.com/dyminki/NasaRoverPhotos/blob/master/nasaRover.png)
+![Image](https://github.com/dyminki/NasaRoverPhotos/blob/master/nasaRover.jpg)
