@@ -16,6 +16,7 @@ $(function() {
         }).fail(function(error) {
             console.log(error);
         });
+        inputTxt.val('')
     }
     function changeHref() {
         getSol()

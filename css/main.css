@@ -47,6 +47,7 @@ label {
     color: white;
     font-family: 'Orbitron', sans-serif;
     cursor: pointer;
+    outline: #685544;
 }
 
 #input-submit:hover {
