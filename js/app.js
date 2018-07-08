@@ -7,22 +7,37 @@ $(function() {
     let photos;
     
     function getSol() {
-        marsPhotos = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=' + inputTxt.val() + '&api_key=YKRI5DRrCDyY0MVqZSINa07GYQlectzMMsmGwkWY';
+        let url = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=' + inputTxt.val() + '&api_key=YKRI5DRrCDyY0MVqZSINa07GYQlectzMMsmGwkWY';
+
+        if(marsPhotos !== url){
+            marsPhotos = url;
+            clearGallery();
+        }
+
         $.ajax({
             url: marsPhotos,
         }).done(function(pic) {
             photos = pic;
+            marsGallery(photos);
             phtotsOnScroll(photos)
         }).fail(function(error) {
             console.log(error);
         });
         inputTxt.val('')
     }
-    function changeHref() {
-        getSol()
+    
+    function clearGallery(){
+        $('.section-second').empty();
     }
 
-    inputBtn.on('click', getSol)
+    function enterForPictures (e){
+        if (e.which === 13){
+            getSol()
+        }
+    }
+    inputBtn.on('click', getSol);
+    inputTxt.on('keypress', enterForPictures);
+    
     function phtotsOnScroll(allPhotos) {
         window.onscroll = function(e) {
             if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
@@ -37,6 +52,9 @@ $(function() {
 
     function marsGallery(pic){
         let amountPicturesToShow = 6;
+        if(!pic.photos[showedPhotos]){
+            return;
+        }
         for(let i = showedPhotos; i < amountPicturesToShow + showedPhotos; i++) {
             let photo = pic.photos[showedPhotos].img_src;
             let newEl = $(`
