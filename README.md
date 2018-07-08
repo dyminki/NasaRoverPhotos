@@ -1,5 +1,5 @@
 # Nasa Mars Rover Photos
-Geting photos from NASA API rover curiousity from 2100 sol.
+Geting photos from NASA API rover curiousity.
 
 ### **Build with**
 - HTML
