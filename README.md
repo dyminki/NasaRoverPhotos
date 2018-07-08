@@ -1,5 +1,5 @@
 # Nasa Mars Rover Photos
-Geting photos from NASA API rover curiousity.
+Geting photos from NASA API rover curiousity. Search by solar day of Mars.
 
 ### **Build with**
 - HTML
