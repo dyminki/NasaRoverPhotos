@@ -1,74 +1,72 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
-    font-family: 'Orbitron', sans-serif;
-    background-color: rgb(238, 238, 238);
+  font-family: "Orbitron", sans-serif;
+  background-color: rgb(238, 238, 238);
 }
 .container {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 .section-first {
-    padding: 30% 0;
-    margin: 10px 0;
-    color:  rgb(238, 238, 238);
-    font-size: 60px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
+  padding: 30% 0;
+  margin: 10px 0;
+  color: rgb(238, 238, 238);
+  font-size: 60px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 .input-container {
-    margin: 10px auto;
-    text-align: center;
+  margin: 10px auto;
+  text-align: center;
 }
 label {
-    font-size: 35px;
+  font-size: 35px;
 }
 #input-txt {
-    width: 30%;
-    letter-spacing: 2px;
-    border: none;
-    outline: none;
-    height: 3rem;
-    font-size: 1rem;
-    margin-bottom: 10px;
-    padding-left: 5px;
-    font-family: 'Orbitron', sans-serif;
+  width: 30%;
+  letter-spacing: 2px;
+  border: none;
+  outline: none;
+  height: 3rem;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  font-family: "Orbitron", sans-serif;
 }
 
 #input-submit {
-    border: none;
-    background-color: #5d4938;
-    padding: 10px;
-    text-transform: uppercase;
-    color: white;
-    font-family: 'Orbitron', sans-serif;
-    cursor: pointer;
-    outline: #685544;
+  border: none;
+  background-color: #5d4938;
+  padding: 10px;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+  outline: #685544;
 }
-
 #input-submit:hover {
-    background-color: #685544;
+  background-color: #685544;
 }
-
 .section-second {
-    margin: 10px 0;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    flex-wrap: wrap;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
 }
 .txt {
-    display: block;
-    font-size: 20px;
+  display: block;
+  font-size: 20px;
 }
 .photo {
-    margin: 10px;
-    width: 300px;
-    height: 300px;
-    border: 8px solid white;
-    background-size: cover;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+  border: 8px solid white;
+  background-size: cover;
 }
