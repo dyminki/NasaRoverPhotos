@@ -14,4 +14,4 @@ Geting photos from NASA API rover curiousity. Search by solar day of Mars.
 
 # Screenshoot
 
-![Image](https://github.com/dyminki/NasaRoverPhotos/blob/master/nasaRover.jpg)
+![Image](https://github.com/dyminki/NasaRoverPhotos/blob/master/nasaRover.png)
