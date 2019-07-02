@@ -1,5 +1,7 @@
 # Nasa Mars Rover Photos
-Geting photos from NASA API rover curiousity. Search by solar day of Mars.
+Geting photos from NASA API rover curiousity. Search by solar day of Mars.  
+
+[Live DEMO](https://dyminki.github.io/NasaRoverPhotos/)
 
 # Technologies used
 - HTML
@@ -9,8 +11,6 @@ Geting photos from NASA API rover curiousity. Search by solar day of Mars.
 
 # Using
 - NASA API
-
-[Live DEMO](https://dyminki.github.io/NasaRoverPhotos/)
 
 # Screenshoot
 
